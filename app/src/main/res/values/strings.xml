@@ -1,5 +1,4 @@
-<resources>
-    <string name="app_name">DesignThinkingApp</string>
+<resources>    
     <string name="app_name">DesignThinkingApp</string>
     <string name="settings">Settings</string>
     <string name="modify_apps">Modify Apps</string>

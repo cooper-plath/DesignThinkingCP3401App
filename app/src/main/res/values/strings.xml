@@ -1,3 +1,11 @@
-<resources>
+<resources>    
     <string name="app_name">DesignThinkingApp</string>
+    <string name="settings">Settings</string>
+    <string name="modify_apps">Modify Apps</string>
+    <string name="customise_fonts">Customise Fonts</string>
+    <string name="background">Background</string>
+    <string name="languages">Languages</string>
+    <string name="exit_app">Exit App</string>
+    <string name="back_to_home">Back to home</string>
+    <string name="go_to_settings">Go to settings</string>
 </resources>

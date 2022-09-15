@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".SettingActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="179dp"
+        android:layout_height="74dp"
+        android:text="@string/settings"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <Button
+        android:id="@+id/ModifyApps"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
+        android:text="@string/modify_apps"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
+        android:text="@string/customise_fonts"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
+        android:text="@string/background"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
+        android:text="@string/languages"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
+        android:text="@string/exit_app"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        android:onClick="goHome"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+        android:contentDescription="@string/back_to_home" />
+
+    <ImageButton
+        android:id="@+id/setttingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_preferences"
+        tools:layout_editor_absoluteX="359dp"
+        android:onClick="goSettings"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/go_to_settings" />
+</androidx.constraintlayout.widget.ConstraintLayout>

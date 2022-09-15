@@ -23,7 +23,8 @@
         android:layout_gravity="center"
         android:text="Contacts"
         android:layout_marginTop="150dp"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:onClick="contactsBtnClicked"/>
 
     <Button
         android:id="@+id/cameraBtn"

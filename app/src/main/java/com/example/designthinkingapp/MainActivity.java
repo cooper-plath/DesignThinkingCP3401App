@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button contactsPage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,7 +15,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void contactsBtnClicked(View view) {
-        Intent intent = new Intent(this, ContactsPage.class);
+        try {
+            Intent intent = new Intent(this, ContactsPage.class);
+            startActivity(intent);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public void cameraBtnClicked(View view) {
+        Intent intent = new Intent(this, Camera.class);
         startActivity(intent);
+    }
+
+    public void utilitiesBtnClicked(View view) {
+        Intent intent = new Intent(this, UtilitiesActivity.class);
+        startActivity(intent);
+    }
+
+    public void googleBtnClicked(View view) {
+//        Intent intent = new Intent(this, ContactsPage.class);
+//        startActivity(intent);
     }
 }

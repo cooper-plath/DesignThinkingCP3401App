@@ -19,12 +19,32 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MessagePage"
+            android:exported="false" />
+        <activity
+            android:name=".CallPage"
+            android:exported="false" />
+        <activity
+            android:name=".ContactDetailsPage"
+            android:exported="false" />
+        <activity
+            android:name=".ContactsPage"
+            android:exported="false" />
+        <activity
+            android:name=".Camera"
+            android:exported="false" />
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
     </application>
 
 </manifest>

@@ -32,6 +32,7 @@
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="359dp" />
     </LinearLayout>
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="179dp"
@@ -93,8 +94,5 @@
         android:onClick="closeApp"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="455dp" />
-
-
-
 
 </androidx.appcompat.widget.LinearLayoutCompat>

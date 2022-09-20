@@ -15,13 +15,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void contactsBtnClicked(View view) {
-        try {
             Intent intent = new Intent(this, ContactsPage.class);
             startActivity(intent);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
     }
 
     public void cameraBtnClicked(View view) {
@@ -35,7 +30,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void googleBtnClicked(View view) {
-//        Intent intent = new Intent(this, ContactsPage.class);
-//        startActivity(intent);
+        Intent intent = new Intent(this, GoogleActivity.class);
+        startActivity(intent);
+    }
+
+    public void settingsBtnClicked(View view) {
+        try {
+        Intent intent = new Intent(this, SettingActivity.class);
+        startActivity(intent);
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
     }
 }

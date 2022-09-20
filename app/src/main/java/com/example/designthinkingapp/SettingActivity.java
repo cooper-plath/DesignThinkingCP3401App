@@ -8,8 +8,6 @@ import android.view.View;
 
 public class SettingActivity extends AppCompatActivity {
 
-    public SettingActivity(Intent intent) {
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,12 +17,12 @@ public class SettingActivity extends AppCompatActivity {
 
     public void goHome(View view) {
         Intent intent = new Intent(this, MainActivity.class);
-        new SettingActivity(intent);
+        startActivity(intent);
     }
 
     public void goSettings(View view) {
         Intent intent = new Intent(this, SettingActivity.class);
-        new SettingActivity(intent);
+        startActivity(intent);
     }
 
     public void closeApp(View view) {

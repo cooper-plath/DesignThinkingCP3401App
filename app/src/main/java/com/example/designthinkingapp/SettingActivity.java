@@ -18,12 +18,12 @@ public class SettingActivity extends AppCompatActivity {
     }
 
     public void goHome(View view) {
-        Intent intent = new Intent(SettingActivity.this, MainActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
         new SettingActivity(intent);
     }
 
     public void goSettings(View view) {
-        Intent intent = new Intent(SettingActivity.this, SettingActivity.class);
+        Intent intent = new Intent(this, SettingActivity.class);
         new SettingActivity(intent);
     }
 

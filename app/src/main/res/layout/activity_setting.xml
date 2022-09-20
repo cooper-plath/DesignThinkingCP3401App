@@ -26,7 +26,7 @@
         tools:layout_editor_absoluteY="155dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/fontButton"
         android:layout_width="220dp"
         android:layout_height="75dp"
         android:text="@string/customise_fonts"
@@ -35,7 +35,7 @@
         tools:layout_editor_absoluteY="230dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/backgroundButton"
         android:layout_width="220dp"
         android:layout_height="75dp"
         android:text="@string/background"
@@ -44,7 +44,7 @@
         tools:layout_editor_absoluteY="305dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/languageButton"
         android:layout_width="220dp"
         android:layout_height="75dp"
         android:text="@string/languages"
@@ -53,11 +53,12 @@
         tools:layout_editor_absoluteY="380dp" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/exitApp"
         android:layout_width="220dp"
         android:layout_height="75dp"
         android:text="@string/exit_app"
         android:textSize="24sp"
+        android:onClick="closeApp"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="455dp" />
 

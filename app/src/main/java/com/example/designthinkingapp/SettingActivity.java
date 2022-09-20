@@ -26,4 +26,7 @@ public class SettingActivity extends AppCompatActivity {
         Intent intent = new Intent(SettingActivity.this, SettingActivity.class);
         new SettingActivity(intent);
     }
+
+    public void closeApp(View view) {
+    }
 }

@@ -44,7 +44,10 @@
         <activity
             android:name=".SettingActivity"
             android:exported="false"
-            tools:ignore="Instantiatable" />
+            />
+        <activity
+            android:name=".GoogleActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

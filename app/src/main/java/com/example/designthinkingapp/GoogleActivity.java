@@ -1,4 +1,4 @@
-package au.edu.jcu.google;
+package com.example.designthinkingapp;
 
 import android.app.Activity;
 import android.os.Bundle;

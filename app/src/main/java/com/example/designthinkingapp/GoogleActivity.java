@@ -3,8 +3,10 @@ package com.example.designthinkingapp;
 import android.app.Activity;
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
 
-public class GoogleActivity extends Activity {
+
+public class GoogleActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

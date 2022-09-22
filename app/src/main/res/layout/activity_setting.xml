@@ -12,25 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <ImageButton
-            android:id="@+id/homeButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            app:srcCompat="?attr/actionModeCloseDrawable"
-            android:onClick="goHome"
-            android:contentDescription="@string/back_to_home" />
-
-        <ImageButton
-            android:id="@+id/setttingButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:contentDescription="@string/go_to_settings"
-            android:onClick="goSettings"
-            app:srcCompat="@android:drawable/ic_menu_preferences"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="359dp" />
     </LinearLayout>
 
     <TextView

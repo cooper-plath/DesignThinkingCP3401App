@@ -9,4 +9,5 @@
     <string name="back_to_home">Back to home</string>
     <string name="go_to_settings">Go to settings</string>
     <string name="search">search</string>
+    <string name="font_setting">Font Setting</string>
 </resources>

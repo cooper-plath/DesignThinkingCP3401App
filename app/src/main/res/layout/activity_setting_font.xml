@@ -12,15 +12,33 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:srcCompat="?attr/actionModeCloseDrawable"
+            android:onClick="goHome"
+            android:contentDescription="@string/back_to_home" />
+
+        <ImageButton
+            android:id="@+id/setttingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:contentDescription="@string/go_to_settings"
+            android:onClick="goSettings"
+            app:srcCompat="@android:drawable/ic_menu_preferences"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="359dp" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="179dp"
         android:layout_height="74dp"
-        android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:text="@string/settings"
+        android:text="@string/font_setting"
         android:textSize="48sp"
         tools:layout_editor_absoluteX="116dp"
         tools:layout_editor_absoluteY="35dp" />
@@ -31,7 +49,6 @@
         android:layout_width="220dp"
         android:layout_height="75dp"
         android:text="@string/modify_apps"
-        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="95dp"
@@ -41,7 +58,6 @@
         android:id="@+id/fontButton"
         android:layout_width="220dp"
         android:layout_height="75dp"
-        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:text="@string/customise_fonts"
         android:textSize="24sp"
@@ -52,7 +68,6 @@
         android:id="@+id/backgroundButton"
         android:layout_width="220dp"
         android:layout_height="75dp"
-        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:text="@string/background"
         android:textSize="24sp"
@@ -63,7 +78,6 @@
         android:id="@+id/languageButton"
         android:layout_width="220dp"
         android:layout_height="75dp"
-        android:layout_marginTop="20dp"
         android:text="@string/languages"
         android:layout_gravity="center"
         android:textSize="24sp"
@@ -74,7 +88,6 @@
         android:id="@+id/exitApp"
         android:layout_width="220dp"
         android:layout_height="75dp"
-        android:layout_marginTop="20dp"
         android:text="@string/exit_app"
         android:textSize="24sp"
         android:layout_gravity="center"

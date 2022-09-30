@@ -7,6 +7,9 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
+
+
     <Button
         android:id="@+id/settingsBtn"
         android:layout_width="wrap_content"
@@ -17,44 +20,54 @@
         android:layout_gravity="right"
         android:onClick="settingsBtnClicked"/>
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:text="Home"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="35dp" />
+
     <Button
         android:id="@+id/contactsBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:text="Contacts"
-        android:layout_marginTop="150dp"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:onClick="contactsBtnClicked"/>
 
     <Button
         android:id="@+id/cameraBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
         android:layout_gravity="center"
         android:text="Camera"
         android:layout_marginTop="20dp"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:onClick="cameraBtnClicked"/>
 
     <Button
         android:id="@+id/utilitiesBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
         android:layout_gravity="center"
         android:text="Utilities"
         android:layout_marginTop="20dp"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:onClick="utilitiesBtnClicked"/>
 
     <Button
         android:id="@+id/googleBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
         android:layout_gravity="center"
         android:text="Google"
         android:layout_marginTop="20dp"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:onClick="googleBtnClicked"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

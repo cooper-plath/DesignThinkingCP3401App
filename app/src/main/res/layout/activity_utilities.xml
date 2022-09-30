@@ -47,14 +47,14 @@
         android:id="@+id/alarmImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_menu_preferences"
+        app:srcCompat="@drawable/baseline_alarm_on_black_48"
         android:layout_gravity="center"
         />
 
     <Button
         android:id="@+id/alarmBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
         android:layout_gravity="center"
         android:text="Alarm"
         android:textSize="24sp" />
@@ -63,14 +63,14 @@
         android:id="@+id/calenderImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_menu_preferences"
+        app:srcCompat="@drawable/baseline_calendar_month_black_48"
         android:layout_gravity="center"
         />
 
     <Button
         android:id="@+id/calenderBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
         android:layout_gravity="center"
         android:text="Calender"
         android:textSize="24sp" />
@@ -79,14 +79,15 @@
         android:id="@+id/flashlightImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_menu_preferences"
+        app:srcCompat="@drawable/baseline_flashlight_on_black_48"
         android:layout_gravity="center"
         />
 
     <Button
         android:id="@+id/flashlightBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:text="Flashlight"
         android:textSize="24sp" />
@@ -95,14 +96,14 @@
         android:id="@+id/notesImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_menu_preferences"
+        app:srcCompat="@drawable/baseline_edit_note_black_48"
         android:layout_gravity="center"
         />
 
     <Button
         android:id="@+id/notesBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
         android:layout_gravity="center"
         android:text="Notes"
         android:textSize="24sp" />

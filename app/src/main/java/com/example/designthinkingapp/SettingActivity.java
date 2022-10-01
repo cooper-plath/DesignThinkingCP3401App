@@ -25,6 +25,27 @@ public class SettingActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+
     public void closeApp(View view) {
+    }
+
+    public void modifyApp(View view) {
+        Intent intent = new Intent(this, settingModify.class);
+        startActivity(intent);
+    }
+
+    public void goSettingsFont(View view) {
+        Intent intent = new Intent(this, SettingFont.class);
+        startActivity(intent);
+    }
+
+    public void goSettingsBackground(View view) {
+        Intent intent = new Intent(this, settingBackground.class);
+        startActivity(intent);
+    }
+
+    public void goSettingsLanguage(View view) {
+        Intent intent = new Intent(this, SettingLanguage.class);
+        startActivity(intent);
     }
 }

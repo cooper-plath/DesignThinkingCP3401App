@@ -16,70 +16,66 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="179dp"
+        android:layout_width="wrap_content"
         android:layout_height="74dp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:text="@string/settings"
-        android:textSize="48sp"
+        android:text="Background Settings"
+        android:textSize="44sp"
         tools:layout_editor_absoluteX="116dp"
         tools:layout_editor_absoluteY="35dp" />
 
 
     <Button
-        android:id="@+id/ModifyApps"
+        android:id="@+id/blueBackground"
         android:layout_width="220dp"
         android:layout_height="75dp"
-        android:text="@string/modify_apps"
+        android:text="Blue"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:onClick="modifyApp"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="155dp" />
 
     <Button
-        android:id="@+id/fontButton"
+        android:id="@+id/redBackground"
         android:layout_width="220dp"
         android:layout_height="75dp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:text="@string/customise_fonts"
-        android:onClick="goSettingsFont"
+        android:text="Red"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="230dp" />
 
     <Button
-        android:id="@+id/backgroundButton"
+        android:id="@+id/whiteBackground"
         android:layout_width="220dp"
         android:layout_height="75dp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:text="@string/background"
-        android:onClick="goSettingsBackground"
+        android:text="White"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="305dp" />
 
     <Button
-        android:id="@+id/languageButton"
+        android:id="@+id/blackBackground"
         android:layout_width="220dp"
         android:layout_height="75dp"
         android:layout_marginTop="20dp"
-        android:text="@string/languages"
+        android:text="Black"
         android:layout_gravity="center"
-        android:onClick="goSettingsLanguage"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="380dp" />
 
     <Button
-        android:id="@+id/exitApp"
+        android:id="@+id/confirm_button"
         android:layout_width="220dp"
         android:layout_height="75dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/exit_app"
+        android:layout_marginTop="90dp"
+        android:text="Confirm"
         android:textSize="24sp"
         android:layout_gravity="center"
         android:onClick="closeApp"

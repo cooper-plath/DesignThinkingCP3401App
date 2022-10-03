@@ -35,7 +35,7 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="179dp"
+        android:layout_width="wrap_content"
         android:layout_height="74dp"
         android:layout_gravity="center"
         android:text="@string/font_setting"
@@ -43,56 +43,66 @@
         tools:layout_editor_absoluteX="116dp"
         tools:layout_editor_absoluteY="35dp" />
 
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="number" />
+
 
     <Button
-        android:id="@+id/ModifyApps"
+        android:id="@+id/callibri"
         android:layout_width="220dp"
         android:layout_height="75dp"
-        android:text="@string/modify_apps"
+        android:text="Callibri"
         android:layout_gravity="center"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="155dp" />
 
     <Button
-        android:id="@+id/fontButton"
+        android:id="@+id/comicSans"
         android:layout_width="220dp"
         android:layout_height="75dp"
         android:layout_gravity="center"
-        android:text="@string/customise_fonts"
+        android:text="Comic Sans"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="230dp" />
 
     <Button
-        android:id="@+id/backgroundButton"
+        android:id="@+id/ariel"
         android:layout_width="220dp"
         android:layout_height="75dp"
         android:layout_gravity="center"
-        android:text="@string/background"
+        android:text="Ariel"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="305dp" />
 
     <Button
-        android:id="@+id/languageButton"
+        android:id="@+id/timesNew"
         android:layout_width="220dp"
         android:layout_height="75dp"
-        android:text="@string/languages"
+        android:text="Times New Roman"
         android:layout_gravity="center"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="380dp" />
 
     <Button
-        android:id="@+id/exitApp"
+        android:id="@+id/confirm_button"
         android:layout_width="220dp"
         android:layout_height="75dp"
-        android:text="@string/exit_app"
+        android:layout_marginTop="90dp"
+        android:text="Confirm"
         android:textSize="24sp"
         android:layout_gravity="center"
         android:onClick="closeApp"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="455dp" />
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>

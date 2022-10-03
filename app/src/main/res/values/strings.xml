@@ -10,4 +10,10 @@
     <string name="go_to_settings">Go to settings</string>
     <string name="search">search</string>
     <string name="font_setting">Font Setting</string>
+    <string name="language_setting">Language Setting</string>
+    <string name="english">English</string>
+    <string name="japanese">Japanese</string>
+    <string name="chinese">Chinese</string>
+    <string name="italian">Italian</string>
+    <string name="confirm">Confirm</string>
 </resources>

@@ -16,12 +16,12 @@
 
     <TextView
         android:id="@+id/textView"
+        android:layout_marginTop="50sp"
         android:layout_width="wrap_content"
-        android:layout_height="74dp"
-        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Background Settings"
-        android:textSize="44sp"
+        android:text="Background Colour"
+        android:textSize="48sp"
         tools:layout_editor_absoluteX="116dp"
         tools:layout_editor_absoluteY="35dp" />
 

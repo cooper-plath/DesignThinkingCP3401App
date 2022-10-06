@@ -73,7 +73,6 @@
         android:text="Confirm"
         android:textSize="24sp"
         android:layout_gravity="center"
-        android:onClick="closeApp"
          />
 
 

@@ -78,7 +78,6 @@
         android:text="Confirm"
         android:textSize="24sp"
         android:layout_gravity="center"
-        android:onClick="closeApp"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="455dp" />
 

@@ -15,16 +15,6 @@ public class SettingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_setting);
     }
 
-    public void goHome(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-    }
-
-    public void goSettings(View view) {
-        Intent intent = new Intent(this, SettingActivity.class);
-        startActivity(intent);
-    }
-
     public void modifyApp(View view) {
         Intent intent = new Intent(this, settingModify.class);
         startActivity(intent);

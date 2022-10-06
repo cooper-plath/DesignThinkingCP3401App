@@ -8,8 +8,6 @@
     tools:context=".settingModify">
 
 
-
-
     <TextView
         android:id="@+id/textView"
         android:layout_marginTop="50sp"
@@ -39,7 +37,6 @@
         android:text="Remove App"
         android:textSize="24sp"
          />
-
 
 
     <Button

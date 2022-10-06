@@ -33,42 +33,32 @@
         android:text="Blue"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="155dp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/redBackground"
         android:layout_width="220dp"
         android:layout_height="75dp"
-        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:text="Red"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="230dp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/whiteBackground"
         android:layout_width="220dp"
         android:layout_height="75dp"
-        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:text="White"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="305dp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/blackBackground"
         android:layout_width="220dp"
         android:layout_height="75dp"
-        android:layout_marginTop="20dp"
+
         android:text="Black"
         android:layout_gravity="center"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="380dp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/confirm_button"
@@ -77,8 +67,6 @@
         android:layout_marginTop="90dp"
         android:text="Confirm"
         android:textSize="24sp"
-        android:layout_gravity="center"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="455dp" />
+        android:layout_gravity="center" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

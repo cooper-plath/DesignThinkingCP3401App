@@ -25,10 +25,6 @@ public class SettingActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-
-    public void closeApp(View view) {
-    }
-
     public void modifyApp(View view) {
         Intent intent = new Intent(this, settingModify.class);
         startActivity(intent);
@@ -48,4 +44,8 @@ public class SettingActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SettingLanguage.class);
         startActivity(intent);
     }
+
+    public void closeApp(View view) {
+    }
+
 }

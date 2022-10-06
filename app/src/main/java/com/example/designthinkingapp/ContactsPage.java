@@ -2,10 +2,16 @@ package com.example.designthinkingapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TableLayout;
+import android.widget.TableRow;
 
 public class ContactsPage extends AppCompatActivity {
     Button contact1;
@@ -13,6 +19,8 @@ public class ContactsPage extends AppCompatActivity {
     Button contact3;
     Button contact4;
     String contactEntry;
+    TableLayout contactsTable;
+    String nameInput;
 
 
     @Override
@@ -24,8 +32,42 @@ public class ContactsPage extends AppCompatActivity {
         contact2 = findViewById(R.id.contact2);
         contact3 = findViewById(R.id.contact3);
         contact4 = findViewById(R.id.contact4);
+        contactsTable = findViewById(R.id.contactsTable);
+
+        Intent newContact = getIntent();
+        Bundle bundle = newContact.getExtras();
+
+        if (bundle != null) {
+            nameInput = bundle.getString("name");
+            String numberInput = bundle.getString("number");
+            System.out.println(nameInput + "  " + numberInput);
+            updateTable(nameInput);
+        }
+    }
+
+    @SuppressLint("ResourceAsColor")
+    private void updateTable(String name) {
 
 
+        TableRow row = new TableRow(this);
+        row.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.WRAP_CONTENT, TableLayout.LayoutParams.WRAP_CONTENT));
+        Button contactBtn = new Button(this);
+        contactBtn.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT));
+        contactBtn.setText(name);
+        contactBtn.setTextColor(R.color.white);
+        contactBtn.setBackgroundResource(R.color.purple_500);
+        contactBtn.setTextSize(35);
+        contactBtn.setPadding(10, 10, 10, 10);
+        row.addView(contactBtn);
+        contactsTable.addView(row);
+        contactBtn.setId(View.generateViewId());
+        contactBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                contactEntry = nameInput;
+                passIntent();
+            }
+        });
     }
 
     public void onContactBtnClick(View view) {
@@ -46,10 +88,21 @@ public class ContactsPage extends AppCompatActivity {
                 System.out.println(contact4.getText().toString());
                 contactEntry = contact4.getText().toString();
                 break;
+
+
         }
+        passIntent();
+
+    }
+
+    private void passIntent() {
         Intent intent = new Intent(this, ContactDetailsPage.class);
         intent.putExtra("contactEntry", contactEntry);
         startActivity(intent);
+    }
 
+    public void addContactClicked(View view) {
+        Intent intent = new Intent(this, AddContactActivity.class);
+        startActivity(intent);
     }
 }

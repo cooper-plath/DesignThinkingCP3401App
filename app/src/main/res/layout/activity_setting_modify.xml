@@ -8,61 +8,37 @@
     tools:context=".SettingActivity">
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <ImageButton
-            android:id="@+id/homeButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            app:srcCompat="?attr/actionModeCloseDrawable"
-            android:onClick="goHome"
-            android:contentDescription="@string/back_to_home"
-            tools:ignore="UsingOnClickInXml" />
 
-        <ImageButton
-            android:id="@+id/setttingButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:contentDescription="@string/go_to_settings"
-            android:onClick="goSettings"
-            app:srcCompat="@android:drawable/ic_menu_preferences"
-            tools:ignore="MissingConstraints,RtlHardcoded,UsingOnClickInXml"
-            tools:layout_editor_absoluteX="359dp" />
-    </LinearLayout>
 
     <TextView
         android:id="@+id/textView"
+        android:layout_marginTop="50sp"
         android:layout_width="wrap_content"
-        android:layout_height="74dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Modify Apps"
         android:textSize="48sp"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="35dp" />
+        />
 
     <Button
         android:id="@+id/addApp"
+        android:layout_marginTop="20dp"
         android:layout_width="220dp"
         android:layout_height="75dp"
         android:text="Add App"
         android:layout_gravity="center"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="155dp" />
+         />
 
     <Button
         android:id="@+id/removeApp"
         android:layout_width="220dp"
         android:layout_height="75dp"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center"
         android:text="Remove App"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="230dp" />
+         />
 
 
 
@@ -74,6 +50,5 @@
         android:text="@string/confirm"
         android:textSize="24sp"
         android:layout_gravity="center"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="455dp" />
+         />
 </androidx.appcompat.widget.LinearLayoutCompat>

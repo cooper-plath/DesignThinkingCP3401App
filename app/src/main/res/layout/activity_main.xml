@@ -7,23 +7,19 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
-
-
     <Button
         android:id="@+id/settingsBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         style='@style/Widget.MaterialComponents.Button.Icon'
         app:icon="@android:drawable/ic_menu_preferences"
-        android:layout_marginRight="10dp"
         android:layout_gravity="right"
         android:onClick="settingsBtnClicked"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="74dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Home"
         android:textSize="48sp"

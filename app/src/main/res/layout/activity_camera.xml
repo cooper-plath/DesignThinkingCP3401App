@@ -6,41 +6,50 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Camera">
-    
-    <Button
-        android:id="@+id/btnCameraPhoto"
+
+    <TextView
+        android:layout_marginTop="50sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:text="Camera"
+        android:textSize="48sp"
+        />
+
+    <Button
+        android:id="@+id/btnCameraPhoto"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
         android:text="Take Photo"
-        android:layout_marginTop="150dp"
-        android:textSize="20sp" />
+        android:layout_marginTop="50dp"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btnCameraVideo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
         android:layout_gravity="center"
         android:text="Take Video"
         android:layout_marginTop="20dp"
-        android:textSize="20sp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btnViewPhotos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
         android:layout_gravity="center"
         android:text="View Photos"
         android:layout_marginTop="20dp"
-        android:textSize="20sp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btnViewVideos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
         android:layout_gravity="center"
         android:text="View Videos"
         android:layout_marginTop="20dp"
-        android:textSize="20sp" />
+        android:textSize="24sp" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
